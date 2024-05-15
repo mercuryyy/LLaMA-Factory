@@ -393,6 +393,8 @@ See [examples/README.md](examples/README.md) for advanced usage (including distr
 #### Use local environment
 
 ```bash
+pip install git+https://github.com/unsloth/unsloth.git
+
 CUDA_VISIBLE_DEVICES=0 GRADIO_SHARE=1 llamafactory-cli webui
 ```
 
